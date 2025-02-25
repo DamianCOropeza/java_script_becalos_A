@@ -31,3 +31,25 @@ if(creditos >=10 && promedio >= 8.5){
 }else{
     console.log("no puedes tener una beca");
 }
+
+//TAREA DIA 2
+
+// Declaración de la variable nota y asignación de un valor entre 0 y 100
+let nota = 85; // Puedes cambiar este valor para probar otros casos
+
+// Verifica si la nota es un valor truthy y está en el rango de 0 a 100
+if (nota >= 0 && nota <= 100) {
+    if (nota >= 90) {
+        console.log("Aprobado, ¡Excelente!");
+    } else if (nota >= 75) {
+        console.log("Aprobado ¡Bien!");
+    } else if (nota >= 60) {
+        console.log("Aprobado Suficiente.");
+    } else {
+        console.log("Reprobado No aprobaste");
+    }
+} else {
+    console.log('La nota ingresada no es válida. Debe estar entre 0 y 100.');
+}
+
+
