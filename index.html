@@ -7,14 +7,36 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Mi lista de compras</h1>
+    <h1 id="titulo">Hola,mundo</h1>
+    <button onclick="cambiarTexto()"> Cambiar texto</button>
 
-    <div id="input-container">
-        <input type="text" id="producto" placeholder="Añade un producto"></imput>
-        <button id="agregar">agregar</button>
+    <p class="texto">Este es primer parrafo</p>
+    <p class="texto">Este es el segundo parrafo</p>
+    <p class="texto"> Este es el tercer parrafo</p>
+
+    <button onclick="cambiarColor()">Cambiar color</button>
+
+    <p>Hola soy un parrafo</p>
+    <p>Hola soy otro parrafo</p>
+    <button onclick="ocultarParrafo()"> Oculta en segundo parrafo</button>
+
+
+    <div>
+        <p>Mi perro se llama Milaneso uwu</p>
     </div>
 
-    <ul id="lista-compras"></ul>
-    <script src="zcript.js"></script>
+    <p>Mi gato se llama Mantequillo</p>
+
+    <button onclick="cambiarTextoDiv()">Cambiar texto dentro de DIV</button>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <button onclick="marcarItems()">Marcar items</button>
+
+    <script src="main.js"></script>
 </body>
 </html>
