@@ -58,6 +58,7 @@ let perros = prompt("Cuantos perros tienes?");
 
 let total = parseInt(gatos) + parseInt(perros); // Convertir string a numero
 let total_2 = Number(gatos) + Number(perros); // Convertir string a numero
+
 // Vemos los datos en consola
 console.log(` ${usuario} tiene ${gatos} gatos y ${perros} perros.`);
 
